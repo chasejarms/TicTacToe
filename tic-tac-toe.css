@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    background-color: #4CB944;
+}
+body {
+    margin: 100px 20% 100px 20%;
+}
+
+.boxes {
+    height: 100px;
+    width: 100px;
+    display: block;
+    float: left;
+    background-color: #4CB944;
+    border: solid white 3px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-size: 100px;
+}
+#box1, #box2, #box3 {
+    border-top: none;
+}
+#box1, #box4, #box7 {
+    border-left: none;
+}
+#box3, #box6, #box9 {
+    border-right: none;
+}
+#box7, #box8, #box9 {
+    border-bottom: none;
+}
+#tic-tac-toe-container {
+    height: 312px;
+    width: 312px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#reset-button-container {
+    width: 100%;
+    text-align: center;
+}
+#reset-game {
+    border: white solid 3px;
+    border-radius: 5px;
+    background-color: #4CB944;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 42px;
+}
+h3 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    top: -25px;
+    right: -17px;
+    visibility: "hidden";
+}
